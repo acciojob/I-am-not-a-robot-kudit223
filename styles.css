@@ -25,6 +25,7 @@ img {
 .flex {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .selected {
@@ -37,4 +38,6 @@ p {
 
 button {
   margin: 20px;
+  padding:5px 20px;
+  display: none;
 }
